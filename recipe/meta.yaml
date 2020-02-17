@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
@@ -26,7 +26,7 @@ requirements:
     - spenc
     - cenpy
     - geopandas
-    - matplotlib
+    - matplotlib-base
     - scikit-learn
     - seaborn
     - pyarrow =0.13

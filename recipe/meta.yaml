@@ -1,5 +1,5 @@
 {% set name = "geosnap" %}
-{% set version = "0.1.6" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 935aff8f158417cf27b60f491a6a04d63147edcbd8cb048b6a5d86f0c52977f0
+  sha256: 5fc5c7a1e436ec2498743ce6202b56eedb57255374916fd20b10fd46801ad32c
 
 build:
   noarch: python
@@ -39,7 +39,7 @@ requirements:
     - quilt3 >=3.1.11
     - xlrd
     - region >=0.2.0
-    - tobler
+    - tobler >=0.2.1
 
 test:
   imports:

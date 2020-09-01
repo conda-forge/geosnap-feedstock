@@ -1,5 +1,5 @@
 {% set name = "geosnap" %}
-{% set version = "0.3.2" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8679a3ed61999ff10dacb8f1dcea9171f79a8cf2034d31a57443f81517cd0dd3
+  sha256: 68e27b32575c4b85f55797dca9f86d09078e87a22a7ed384a740bf25cd1e1c8d
 
 build:
   noarch: python

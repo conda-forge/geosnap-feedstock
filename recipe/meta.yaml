@@ -40,6 +40,9 @@ requirements:
     - xlrd
     - region >=0.2.0
     - tobler >=0.2.1
+    - scikit-plot
+    - contextily
+    - proplot
 
 test:
   imports:

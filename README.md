@@ -5,7 +5,7 @@ Home: http://github.com/spatialucr/geosnap
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Geospatial Neighborhood Analysis in Python
 

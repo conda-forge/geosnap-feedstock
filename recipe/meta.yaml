@@ -1,5 +1,5 @@
 {% set name = "geosnap" %}
-{% set version = "0.7.2" %}
+{% set version = "0.7.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 139972c936763caa7a4a5d742f7fe5ff83d33737e9ced5dbbdb5c6ee703b3c5b
+  sha256: d5ed10aace5eb7caec988cd16c5bde19403f80e218a4e35d3991885737a0bf06
 
 build:
   noarch: python
@@ -49,6 +49,7 @@ requirements:
     - s3fs
     - botocore >=1.20.21
     - versioneer
+    - segregation >=2.1
 
 test:
   imports:

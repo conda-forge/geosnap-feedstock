@@ -47,6 +47,7 @@ requirements:
     - fsspec
     - s3fs
     - botocore >=1.20.21
+    - versioneer
 
 test:
   imports:

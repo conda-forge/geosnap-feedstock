@@ -1,5 +1,5 @@
 {% set name = "geosnap" %}
-{% set version = "0.7.3" %}
+{% set version = "0.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: d5ed10aace5eb7caec988cd16c5bde19403f80e218a4e35d3991885737a0bf06
+  sha256: 81e8aa44a1091cd466b5c61ca3a3d972d9d5c82579fc3f72fa34497bafb9939a
 
 build:
   noarch: python
@@ -37,13 +37,13 @@ requirements:
     - palettable
     - pip
     - tqdm
-    - quilt3 >=3.1.11
+    - quilt3 >=3.6
     - xlrd
     - region >=0.2.0
     - tobler >=0.2.1
     - scikit-plot
     - contextily
-    - proplot
+    - proplot >=0.9
     - spopt >=0.1.1
     - fsspec
     - s3fs

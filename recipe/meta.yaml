@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -39,15 +39,15 @@ requirements:
     - tqdm
     - quilt3 >=3.1.11
     - xlrd
+    - mapclassify
     - region >=0.2.0
-    - tobler >=0.2.1
+    - tobler >=0.8.2
     - scikit-plot
     - contextily
-    - proplot
+    - proplot >=0.9
     - spopt >=0.1.1
     - fsspec
     - s3fs
-    - botocore >=1.20.21
     - versioneer
     - segregation >=2.1
 

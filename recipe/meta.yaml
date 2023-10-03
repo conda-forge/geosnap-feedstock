@@ -1,5 +1,5 @@
 {% set name = "geosnap" %}
-{% set version = "0.11.0" %}
+{% set version = "0.12.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2fab6b91dc89fad088fb7ea7408b1dbf2d1211c1cd2ffaa4184fa5bddc5dc253
+  sha256: de9babfd03b26ec009f2faf8e7b66ceed8167cc35ba57adf98fa5d1c760ca0c9
 
 build:
   noarch: python
-  number: 2
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -30,6 +30,7 @@ requirements:
     - scikit-learn
     - seaborn
     - pyarrow >=0.14.1
+    - platformdirs
     - tqdm
     - quilt3 >=3.1.11
     - xlrd
@@ -38,7 +39,6 @@ requirements:
     - tobler >=0.8.2
     - scikit-plot
     - contextily
-    - proplot >=0.9
     - spopt >=0.1.1
     - fsspec
     - s3fs

@@ -18,7 +18,8 @@ requirements:
   host:
     - python >=3
     - pip
-    - versioneer
+    - setuptools >=61.0
+    - setuptools-scm >=6.2
   run:
     - python >=3
     - pandas
@@ -42,8 +43,7 @@ requirements:
     - fsspec
     - s3fs
     - segregation >=2.1
-    - setuptools >=61.0
-    - setuptools-scm >=6.2
+    - pooch
 
 test:
   imports:

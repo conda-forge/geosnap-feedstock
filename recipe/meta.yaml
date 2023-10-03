@@ -11,36 +11,30 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 2
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
     - python >=3
     - pip
-    - versioneer
+    - setuptools >=61.0
+    - setuptools-scm >=6.2
   run:
     - python >=3
     - pandas
     - giddy >=2.2.1
     - libpysal
-    - spenc
-    - cenpy >=1.0
     - geopandas
     - matplotlib-base
     - scikit-learn
     - seaborn
     - pyarrow >=0.14.1
-    - appdirs
-    - dash
-    - dash-bootstrap-components
-    - palettable
-    - pip
     - tqdm
     - quilt3 >=3.1.11
     - xlrd
+    - appdirs
     - mapclassify
-    - region >=0.2.0
     - tobler >=0.8.2
     - scikit-plot
     - contextily
@@ -48,8 +42,8 @@ requirements:
     - spopt >=0.1.1
     - fsspec
     - s3fs
-    - versioneer
     - segregation >=2.1
+    - pooch
 
 test:
   imports:

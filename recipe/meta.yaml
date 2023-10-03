@@ -42,6 +42,7 @@ requirements:
     - fsspec
     - s3fs
     - segregation >=2.1
+    - pooch
 
 test:
   imports:

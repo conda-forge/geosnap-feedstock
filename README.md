@@ -3,15 +3,15 @@ About geosnap-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/geosnap-feedstock/blob/main/LICENSE.txt)
 
-Home: http://github.com/spatialucr/geosnap
+Home: http://github.com/oturns/geosnap
 
 Package license: BSD-3-Clause
 
 Summary: Geospatial Neighborhood Analysis in Python
 
-Development: https://github.com/spatialucr/geosnap
+Development: https://github.com/oturns/geosnap
 
-Documentation: http://spatialucr.github.io/geosnap
+Documentation: http://oturns.github.io/geosnap
 
 geosnap is an open-source, Python package for exploring, modeling, and visualizing neighborhood
 dynamics. It provides a suite of tools for creating socio-spatial datasets, harmonizing those

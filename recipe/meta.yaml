@@ -34,7 +34,6 @@ requirements:
     - xlrd
     - appdirs
     - mapclassify
-    - region >=0.2.0
     - tobler >=0.8.2
     - scikit-plot
     - contextily

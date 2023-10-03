@@ -32,6 +32,7 @@ requirements:
     - tqdm
     - quilt3 >=3.1.11
     - xlrd
+    - appdirs
     - mapclassify
     - region >=0.2.0
     - tobler >=0.8.2

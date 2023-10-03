@@ -18,37 +18,29 @@ requirements:
   host:
     - python >=3
     - pip
-    - versioneer
+    - setuptools >=61.0
+    - setuptools-scm >=6.2
   run:
     - python >=3
     - pandas
     - giddy >=2.2.1
     - libpysal
-    - spenc
-    - cenpy >=1.0
     - geopandas
     - matplotlib-base
     - scikit-learn
     - seaborn
     - pyarrow >=0.14.1
-    - appdirs
-    - dash
-    - dash-bootstrap-components
-    - palettable
-    - pip
+    - platformdirs
     - tqdm
     - quilt3 >=3.1.11
     - xlrd
     - mapclassify
-    - region >=0.2.0
     - tobler >=0.8.2
     - scikit-plot
     - contextily
-    - proplot >=0.9
     - spopt >=0.1.1
     - fsspec
     - s3fs
-    - versioneer
     - segregation >=2.1
 
 test:

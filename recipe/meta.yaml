@@ -34,7 +34,6 @@ requirements:
     - tqdm
     - quilt3 >=3.1.11
     - xlrd
-    - appdirs
     - mapclassify
     - tobler >=0.8.2
     - scikit-plot
@@ -44,6 +43,7 @@ requirements:
     - s3fs
     - segregation >=2.1
     - pooch
+    - pandana >=0.7
 
 test:
   imports:

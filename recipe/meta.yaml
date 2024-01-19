@@ -21,7 +21,7 @@ requirements:
     - setuptools >=61.0
     - setuptools-scm >=6.2
   run:
-    - python >=3
+    - python >=3.8
     - pandas
     - giddy >=2.2.1
     - libpysal

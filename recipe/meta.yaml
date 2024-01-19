@@ -1,5 +1,5 @@
 {% set name = "geosnap" %}
-{% set version = "0.12.0" %}
+{% set version = "0.13.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: de9babfd03b26ec009f2faf8e7b66ceed8167cc35ba57adf98fa5d1c760ca0c9
+  sha256: 842bcc8406e16248540b24684fd8fb1c8533ee54f81d6cc7523457c706b7b0d9
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -21,7 +21,7 @@ requirements:
     - setuptools >=61.0
     - setuptools-scm >=6.2
   run:
-    - python >=3
+    - python >=3.8
     - pandas
     - giddy >=2.2.1
     - libpysal
@@ -34,7 +34,6 @@ requirements:
     - tqdm
     - quilt3 >=3.1.11
     - xlrd
-    - appdirs
     - mapclassify
     - tobler >=0.8.2
     - scikit-plot
@@ -44,6 +43,7 @@ requirements:
     - s3fs
     - segregation >=2.1
     - pooch
+    - pandana >=0.7
 
 test:
   imports:

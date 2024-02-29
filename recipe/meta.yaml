@@ -36,7 +36,6 @@ requirements:
     - xlrd
     - mapclassify
     - tobler >=0.8.2
-    - scikit-plot
     - contextily
     - spopt >=0.1.1
     - fsspec
